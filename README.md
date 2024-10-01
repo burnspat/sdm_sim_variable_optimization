@@ -1,5 +1,5 @@
 # sdm_sim_variable_optimization
-code repo for Ecological Informatics publication "Simulating multi-scale optimization and variable selection in species distribution modeling", by Cushman et al. 2024
+code repo for Ecological Informatics publication "Simulating multi-scale optimization and variable selection in species distribution modeling", by Cushman et al. 2024. https://doi.org/10.1016/j.ecoinf.2024.102832
 
 We first simulated species occurrence across a portion of Borneo using four known predictor variables and parameters found within the crosswalk folder. For each simulated occurrence point we then extracted a suite of multi-scale predictor variables (simulation_pa_predictors_extract_gee.js) and used various variable selection methods and model algorithms to model the simulated distribution (simulation_model_sbatch.sh). 
 
